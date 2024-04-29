@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneMusic.EntityLayer", "OneMusic.EntityLayer\OneMusic.EntityLayer.csproj", "{E60C2F73-FB20-410E-BB5D-144EFCADEBB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneMusic.DataAccessLayer", "OneMusic.DataAccessLayer\OneMusic.DataAccessLayer.csproj", "{26E4294B-0B75-420F-9F2D-45A81FC5D68F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneMusic.BusinessLayer", "OneMusic.BusinessLayer\OneMusic.BusinessLayer.csproj", "{6D7C4661-7235-4C1E-954B-A2D045EF4C5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneMusic.WebUI", "OneMusic.WebUI\OneMusic.WebUI.csproj", "{2BD1F49C-F85D-45D8-AD31-1170D5D8E521}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E60C2F73-FB20-410E-BB5D-144EFCADEBB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E60C2F73-FB20-410E-BB5D-144EFCADEBB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E60C2F73-FB20-410E-BB5D-144EFCADEBB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E60C2F73-FB20-410E-BB5D-144EFCADEBB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26E4294B-0B75-420F-9F2D-45A81FC5D68F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26E4294B-0B75-420F-9F2D-45A81FC5D68F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26E4294B-0B75-420F-9F2D-45A81FC5D68F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26E4294B-0B75-420F-9F2D-45A81FC5D68F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D7C4661-7235-4C1E-954B-A2D045EF4C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D7C4661-7235-4C1E-954B-A2D045EF4C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D7C4661-7235-4C1E-954B-A2D045EF4C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D7C4661-7235-4C1E-954B-A2D045EF4C5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BD1F49C-F85D-45D8-AD31-1170D5D8E521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BD1F49C-F85D-45D8-AD31-1170D5D8E521}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BD1F49C-F85D-45D8-AD31-1170D5D8E521}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BD1F49C-F85D-45D8-AD31-1170D5D8E521}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AA26D55-4D20-4E29-9387-0BEBF46EAE08}
+	EndGlobalSection
+EndGlobal
